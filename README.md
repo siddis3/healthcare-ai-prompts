@@ -4,7 +4,7 @@
 A collection of AI prompts built specifically for Clinical 
 Informatics and Healthcare Data Analytics workflows.
 
-Built by: [Your Name] | Clinical Informatics Analyst | Texas
+Built by: [Sobia Siddiqui] | Clinical Informatics Analyst | Texas
 Tools: Claude.ai | Epic | Tableau
 
 ---
@@ -38,7 +38,47 @@ gives you a structured starting point every single time.
 
 ---
 
-## 🚀 More prompts coming soon
-- Dashboard Refresh QA Checklist
-- Stakeholder Data Explanation Generator
-- Epic Report Builder Assistant
+## 📊 Prompt 2: The Stakeholder Explainer
+
+**Use case:** Your data shows a discrepancy. You understand why. But your medical director or VP doesn't speak SQL or Epic. You spend 20 minutes figuring out how to explain it without making anyone panic.
+
+**The Prompt:**
+```
+You are a Clinical Informatics Analyst presenting data findings 
+to non-technical healthcare leaders.
+
+I found the following discrepancy in our quality dashboard:
+- Measure: [insert measure]
+- Expected value: [insert]
+- Actual value: [insert]
+- Likely cause: [insert your technical finding]
+
+Write a clear, calm 3-paragraph explanation I can send to my 
+Medical Director. Use no technical jargon. Paragraph 1: what 
+the data shows. Paragraph 2: why it happened (simple terms). 
+Paragraph 3: what we're doing to fix it and when.
+```
+
+## 📊 Prompt 3: Dashboard Refresh QA Checklist
+
+**Use case:** Dashboard Refresh QA Checklist
+
+**The Prompt:**
+```
+You are a Clinical Informatics Analyst doing a quality check 
+on a refreshed Tableau dashboard before sending it to stakeholders.
+
+Dashboard name: [insert]
+Data source: [insert — e.g., Epic Clarity, data warehouse]
+Refresh frequency: [daily/weekly/monthly]
+
+Generate a pre-send QA checklist covering:
+1. Data freshness checks
+2. Count validation steps
+3. Visual/formatting checks
+4. Common Epic data lag issues to verify
+5. Sign-off criteria
+
+Format as a checkbox list I can reuse every time.
+```
+
